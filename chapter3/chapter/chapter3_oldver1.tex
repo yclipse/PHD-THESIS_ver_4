@@ -1,0 +1,408 @@
+\chapter{Materials and Methods}
+\section{Time resolved core-flooding experiments imaged with X-ray synchrotron tomography}
+\subsection{Materials}
+\subsubsection{Indiana limestone sample}
+In the time resolved synchrotron experiments, oolitic Indiana limestone samples were used as the porous rock media. SEM images of the samples (Fig.\ref{sempore}) illustrate two distinct surface topology, the rough, fine grained ooid surface, and the much smoother diagenetic drusy calcite cements surface (red circle in Fig.\ref{sempore}). The pore space magnitude has a wide distribution from under-micron to hundreds of microns. The micro pores that below the synchrotron X-ray microtomography resolution at APS (2.2\textmu m) are sub-resolution porosity that can not be identified by imaging, thus fluid flow inside these micro pores can not be detected and become one of the unavoidable limitations of this experiment. The total sample porosity was estimated of 20.65\% based on the ratio of measured sample density to pure calcite density. The porosity estimated by the ratio of pore to solid based on imaging was 6.5\%. There are two reasons for this discrepancy, one is denser dolomitic impurity of the Indiana limestone sample that overestimate the porosity, another is the sub-resolution porosity that can not be imaged that underestimate the porosity. The actual effective porosity should be slightly higher than 6.5\%. The sample permeability was 0.39mD, approximately estimated from a measurement of the pressure drop across the sample during loading with water.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=1\textwidth]{\dir/figs/indianapore.png}
+  \caption{SEM image of Indiana limestone}
+  \label{sempore}
+\end{figure}
+
+The sample used in synchrotron experiments was sized 3mm OD by 21.2mm length cylinder. The upper 13.7mm (Fig.\ref{core} grey) was core end zone to exclude capillary effects from the volume of interest. The volume of interest is colored in green in Fig.\ref{core} (target zone), and for the volume above and below the target zone are the buffer zones where static scans were taken.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=.5\textwidth]{\dir/figs/core.png}
+  \caption{Core dimension of Indiana limestone} 
+  \label{core} 
+\end{figure}
+
+The untreated Indiana limestone sample is directly from outcrop and cleaned ultrasonically in deionised water in sample preparation, it is also referred to as unaltered sample.
+
+One Indiana limestone sub-sample was aged with crude oil from Presalt Lula Field to alter its wetting properties. Dead crude oil was introduced into the sample by micro-centrifugation, the oil-covered sample was then kept for 54 days at 75$^{\circ}$C. The pore surfaces can adsorb polar components in the crude oil and thus change its wetting properties \citep{buckley1998mechanisms}. This sample is referred to as crude-aged sample. 
+
+Representative Elementary Volume (REV) is the smallest unit volume over which measurements can represent the whole sample. Sample REV has to be at least no larger than the targeted volume to show representative result. REV is measured by step-wisely increasing the sampling size while measuring a bulk property for example porosity, the measurement will oscillate between the representative bulk value and then converge at average porosity that can represent the bulk when sample size is close to the REV. The REV of Indiana limestone was estimated using image-based porosity measurements across a range of volume sizes (Fig.\ref{rev}). The graph shows the porosity curve converges at 700 pixel (blue arrow), so the REV of this sample is ~3.65 mm$^3$ and well within the targeted volume which is ~15.55 mm$^3$.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=1\textwidth]{\dir/figs/rev.png}
+  \caption{The REV curve of targeted volume of Indiana limestone}
+  \label{rev}
+\end{figure}
+
+\section{Presalt core-flooding experiment imaged with in-house X-ray microtomography}
+
+\subsubsection{Presalt shrub lithology sample}
+Presalt shrub lithology sample F4402H (Soxhlet cleaned) from Lula Field was cored into two cylinder sub-sample cores of 10mm OD and 29mm length (Presalt Lula LL-1D-RJS, Depth: 5073.35 m, Absolute Permeability: 430 mD, Effective Porosity: 7.8\%; Density: 2.7 g/cm$^3$). The sample is not more heterogeneous than Indiana limestone and the core size is much larger than Indiana limestone so REV is not again concerned.
+
+\subsection{Fluids}
+\subsubsection{Aqueous Phase}
+The aqueous phase was 2.4M Potassium Iodine (KI) water (deionized) solution. KI is a common doping agent for enhancing the X-ray imaging contrast with oil and rock \citep[e.g.]{iglauer2011residual,culligan2006pore,porter2010measurement}. The viscosity of KI water solution at 25$^{\circ}$C is considered as close to water viscosity which is 0.89 MPaS reported by The International Association for the Properties of Water and Steam (IAPWS) 2008. The KI water solution is referred to as 'brine'.
+
+\subsubsection{Organic phase}
+The organic phase for the synchrotron experiments is n-dodecane (99\%). Its solubility in water at 25$^{\circ}$C is reported to be 8.9 \times 10$^{-10}$ in mole fraction \citep{shaw2006iupac} and can be considered as immiscible with water. The viscosity of n-dodecane is reported in literature to be 1.36 MPaS at one atmosphere pressure and 25$^{\circ}$C \citep{liu2011measurement}. The interfacial tension of n-dodecane with water was reported to be 52.8 mN/m at 20$^{\circ}$C \citep{zeppieri2001interfacial}.
+
+Dead crude oil from Presalt Lula Field was used in the Presalt shrub lithology sample F4402H experiments using in-house X-ray \textmu CT. Dead oil refers to oil that has lost its volatile components. Interfacial tension of dead crude oil with water was estimated to be 20 mN/m by Dr.Surmas Rodrigo from Petrobras. Viscosity (NS/m$^2$) at 20$^{\circ}$C is estimated to be 0.043 by curve fitting Petrobras lab measurements at higher temperatures (Fig.\ref{viscosity}).
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=.9\textwidth]{\dir/figs/viscosity_oil.png}
+  \caption{Curve fitting of viscosity and temperature of Presalt dead crude oil}
+  \label{viscosity}
+\end{figure}
+
+\subsection{Core-flooding cells}
+
+\subsubsection{Small sample core-flooding cell for synchrotron experiments}
+The core-flooding cell used at synchrotron beamline APS 2-BM was 'Sleipnir' fluid flow cell described by \cite{fusseis2014low} (Fig.\ref{sleipnir2}). The cell was further modified for these experiments to include a carbon fibre composite pressure vessel to enhance X-ray transparency. In addition, the cell was partly re-engineered for zero-dead volume and fluid injections. The Sleipnir cell is capable of sample dimension up to 3mm diameter.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=.9\textwidth]{\dir/figs/sleipnir2.png}
+  \caption{(Left) Sleipnir cell, with carbon fibre pressure vessel and tie-rods in place on the rotary table in the upstream hutch at 2BM, APS. (Right) Experimental set-up for two phase fluid flow, showing fluid manifolds, high pressure tubing (green). High pressure syringe pumps were located below the optical bench to shield them from scattered radiation. }
+  \label{sleipnir2}
+\end{figure}
+
+\subsubsection{Large sample core-flooding cell for in-house CT experiments}
+The large sample core-flooding cell (Fig.\ref{largecell3}) is known as ICCR microtomography flow cell 'Slidr', comparing with Sleipnir, can accept sample dimension up to 10mm OD and 40mm length and elevated pressure. We used this cell for larger samples imaged by Edinburgh in-house X-ray \textmu CT. This cell is made of carbon fibre and steel. It has been tested to 20MPa (3000 psi) confinning pressure and designed parameters indicate safe operation up to 35Mpa. Its dimension enables larger sample size thus can study more heterogeneous carbonate rocks. The cohesion material used in this core constrains the temperature limit to 40$^{\circ}$C. The cell was designed by Dr. Ian Butler and manufactured in the workshop in School of Geoscience, University of Edinburgh.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=.9\textwidth]{\dir/figs/largecell3.png}
+  \caption{(Left) The flow cell installed on the rotary table of the University of Edinburgh’s micro-tomography instrument. (Middle) Cross section through the cell and cell stand. The cell uses a tube in tube design to enable confining and pore fluid access via the end caps. (Right) The bill of materials for the cell. Stainless steel (316) offers excellent machine ability and corrosion resistance, however CP2 titanium is an alternative that would offer sufficient strength and corrosion resistance and reduce the overall mass of the cell.}
+  \label{largecell3}
+\end{figure}
+
+\subsection{Core-flooding apparatus}
+The experimental apparatus used in synchrotron facility consisted of fluid cell, syringe pumps, isolation valves, and a back pressure regulator (BPR). These components were connected by high pressure tubing and fluid manifolds (Fig.\ref{apparatus}). Three Cetoni neMESYS\texttrademark Syringe pumps were used to inject core-flooding oil, brine and confining fluid (water). The Syringe pumps were precisely controlled by software (Fig.\ref{apparatus} CETONI pumps). Three isolation valves controlled the flow of brine, oil and confining fluid which were leading into the fluid flow cell inlet (Fig.\ref{apparatus} flow cell). And a BPR controls the outlet pressure of the whole system and its outlet led to a waste-fluid bottle. 
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=1\textwidth]{\dir/figs/apparatus.png}
+  \caption{ Experimental apparatus used at the APS facilities operating multiphase fluid flow experiments under elevated pressure. It consists of three syringe fluid flow pumps, three shut-off valves, a high pressure X-ray transparent fluid cell and a 6000psi back pressure regulator. Figure made by Dr.Ian Butler.}
+  \label{apparatus}
+\end{figure}
+
+The inlet tube for steady state injections was designed as 'tube-in-tube' (Fig.\ref{design} cartoon) . This design consisted of a inner tube for oil flow and outer tube for brine flow. The design allows both fluids enter the core in a mixed fashion and reduced the impact of the location of accessed pores of fluid phases.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=1\textwidth]{\dir/figs/design.png}
+  \caption{From left: Sleipnir cell, with carbon fibre pressure vessel and tie-rods in place on the rotary table in the upstream hutch at 2BM, APS. Red box zoomed in shows the carbon fibre vessel that holds the sample core. The inlet was designed tube-in-tube for oil and brine steady state injection. The cross-section of tube in tube design shows its dimension.}
+  \label{design}
+\end{figure}
+
+\section{Imaging Methods}
+\subsection{X-ray computed microtomography (\textmu CT)}
+The X-ray \textmu CT facility used in this study was constructed in-house at the Experimental X-ray Micro-tomography Laboratory in the School of Geosciences, the University of Edinburgh (Fig.\ref{edinburghxray}). Specifications are listed as follows:
+
+\begin{itemize}
+ \item X-ray source (Feinfocus FXT-160.48-2, dual head transmission/directional nano/microfocus tube), with spot size of 12 ± 1 μm for X-ray energy of 120 keV. 
+ \item X-ray camera (4 MP Gadox Rad-icon Shad-O-Box 4K, 12bit). The camera pixel size is 48 μm.
+ \item Air-bearing rotary table (Micos UPR-160F SMC pegasus  with taurus motion controller)
+\end{itemize}
+
+Projection data was acquired via a local C++ code and operated via a Testpoint (V.6) Shell program to coordinate the table rotation with image sensor. Subsequent image reconstruction was performed via Octopus\texttrademark and details described in the Data Processing Methods section.
+
+\subsection{Synchrotron X-ray microtomography}
+The Synchrotron X-ray micro-tomography facility used in this study was synchrotron beam line 2-BM at the Advanced Photon Source (APS), Argonne National Laboratory, US. This beam line is fully dedicated to fast imaging (second-scale) for slow dynamic phenomena studies. The synchrotron X-ray beam is sourced from the bending magnets that installed on the electron storage ring. The beam energy range is 11-35 keV and the beam size is 25mm x 4mm. Raw projection data was acquired by the 2-BM internal code, and reconstructed by python based CT image processing library TomoPy \citep{gursoy2014tomopy}. TomoPy reconstruction is described in detail in the following Data Processing Methods section and TomoPy code written by Yili Yang is attached in the appendices.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=1\textwidth]{\dir/figs/edinburghxray.png}
+  \caption{ECOSSE X-ray μCT scanner components: (A) X-ray source (Feinfocus dual head transmission/directional nano/microfocus tube), (B) Air-bearing rotary table (Micos UPR-160F SMC pegasus with taurus motion controller), and (C) 4 MP Gadox X-ray camera (Rad-icon Shad-O-Box)}
+  \label{edinburghxray}
+\end{figure}
+
+\section{Experimental Methods}
+Three core-flooding experiments were conducted individually and summarised in Fig.\ref{exps}. The experimental methods will be described separately in this section. All experiments were conducted in ambient temperature 20$^{\circ}$C - 25$^{\circ}$C.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=.9\textwidth]{\dir/figs/exps.png}
+  \caption{Table: Summary of experimental conditions}
+  \label{exps}
+\end{figure}
+
+\subsection{Time-resolved non-steady and steady state injection experiments}
+In these experiments, brine and mineral oil (99\% n-dodecane) were used as aqueous and organic fluid phase to perform core-flooding in an untreated Indiana limestone (3mm OD by 21mm length) held in cell 'Sleipnir'. Details of these experiments listed in Fig.\ref{exps} first column steady v.s. non-steady experiments. These experiments were conducted by Drs Ian Butler and Marina Sousani prior to Yili Yang join the project.
+
+\subsubsection{Core-flooding fluid injection sequence}
+The Fluid injection sequence during core-flooding is summarised in table Fig.\ref{exptable}. The core before main core-flooding injections was saturated by water, then replaced by brine, then replaced by oil to an irreducible saturation. The experiment had three main stages:
+
+1) Brine injection into oil saturated core (Exp011-Exp015), referred to as brine injection (BI)
+
+2) Continued with oil re-injection into brine saturated core (Exp017-Exp019), referred to as oil -reinjection (OR)
+
+3) Steady state injection when both fluids injected simultaneously (Exp024-Exp027), referred to as steady-state injection (SS)
+
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=1\textwidth]{\dir/figs/exp_table.png}
+  \caption{Table: Sequence of fluid injections for the elevated pressure experiment}
+  \label{exptable}
+\end{figure}
+
+\subsubsection{Synchrotron X-ray \textmu CT imaging}
+The experiments were imaged by synchrotron X-ray (pink beam) radiation at beamline 2-BM Advanced Photon Source (APS), Argonne National Laboratory, US. Pink beam has narrower energy window comparing with white beam, combined with high photon flux can provide better contrast attenuation than white beam.
+
+Three main injection stages were imaged by fast scans. During fast scan, 600 projections of 180$^{\circ}$ rotation were acquired for each tomogram. The exposure time for each projection was 1.7ms leading to 1s total acquisition time per scan. The gap between fast scans was 20 seconds. The spatial resolution is 2.2 micron per pixel. A total of 140+ CT volumes recording the fluid displacement processes were acquired at the end of experiments.
+
+Multi-position scans were taken before and after each stage to check fluid position and acquire high resolution images. During Multi-position scan, 1500 projections of 180$^{\circ}$ rotation were acquired for each tomogram. The sample was moved vertically to make the x-ray beam scan multiple positions along the long axis of the sample.
+
+
+\subsection{Presalt shrub lithology experiments}
+In these experiments, brine, mineral oil (99\% n-dodecane) and crude dead oil from Presalt Lula field were used to perform core flooding in a Presalt shrub lithology sample core of 10mm OD and 29mm length, held in cell 'Slidr'. The experimental details are summarised in Fig.\ref{exps} second column.
+
+\subsubsection{Core-flooding}
+The overall experimental sequence is summarised as follows: 
+
+1) Water saturated scan pre-injection
+
+2) Displace water with brine 
+
+3) Brine saturated scan 
+
+4) Oil injection for 4 pore volumes (2.5 \textmu L/min) 
+
+5) Oil saturated scan 
+
+6) Brine re-injection (0.005 \textmu L/min discontinuously)
+
+7) Multiple scans, partially brine to saturated conditions
+
+The first set of experiments the oil used is dead crude oil from Presalt Lula field. During Brine re-injection (step 6), displacement of previously injected dead crude oil by brine resulted in a significant inlet pressure rise, even when flow rates were reduced to the minimum rate of the pump (0.005\textmu L/min). We had to halt brine injection when inlet pore fluid pressure approached 70 bar, and waited for inlet pressure slowly reduce. The reason of this pressure rise is currently unknown, it may related to the temperature we were performing. According to Dr Surmas Rodrigo from Petrobras, this dead crude oil can flow smoothly in the core in elevated temperature around 70$^{\circ}$.
+
+Subsequent experiments on the same lithology used 99\% n-dodecane as a mineral oil. Flow rate of 2.5 \textmu L/min of both fluids maintained throughout the experiments.
+
+\subsubsection{In-house X-ray \textmu CT imaging}
+The experiments were imaged by the X-ray \textmu CT facility in the University of Edinburgh. X-ray voltage used was 120kV peak energy that ensures a significant propotion of the produced keV spectrum spans the iodine k-edge, which is the binding energy of the innermost electron of iodine, to activate a sudden increase of attenuation coefficient, resulting in excellent X-ray contrast of the data. Each scan took about 40 mins to finish thus only the start and terminal status of each fluid injection were captured.
+
+\subsection{Time resolved crude aging effect experiments}
+In these experiments, brine and mineral oil (99\% n-dodecane) were used as aqueous and organic fluid phase to perform core-flooding in a crude-aged Indiana limestone and an unaltered Indiana limestone (3mm OD by 21mm length). Details of these experiments listed in Fig.\ref{exps} third column.
+
+The aim of these expeirments is to compare the fluid flow process in crude-aged and unaltered carbonates. The fluid injection sequence for crude-aged and unaltered samples are summarised as follows:
+
+Fluid injection sequence of unaltered Indiana limestone sample:
+
+1) H$_2$O and brine flooded pre-injection
+
+2) Dodecane injection 
+
+3) Brine re-injection
+
+Fluid injection sequence of crude aged Indiana limestone sample:
+
+1) Dodecane saturated pre-injection
+
+2) Brine injection
+
+In the crude-aged sample experiments, data acquisition was halted after step 2)brine injection due to camera malfunction, we were unable to continue with further injections.
+
+\subsubsection{Synchrotron X-ray \textmu CT Imaging}
+The technical aim of the experimental suite is to achieve higher temporal resolution synchrotron micro tomography than 2016. We imaged the experiments in beam line 2-BM Advanced Photon Source (APS), Argonne National Laboratory, US. 
+
+Imaging was performed using pink beam radiation. High quality reference scan of 1500 projections was acquired pre-injetion. The dynamic process of fluid flow was imaged by fast scan of 600 projections through a 180$^{\circ}$ rotation in one second. The interval between each scan was 3 seconds, which is seven times faster comparing with the 20 seconds interval achieved in 2016.  The rotation of the rotary stage, where the sample was mounted, is synchronised with the camera. This allows data acquisition during the rotation of the sample in clockwise and anticlockwise, rotational acceleration and de-acceleration. Zero-dead volume tube-in-tube fluid delivery method using in 2016 was abandoned to minimise the tubing attached which can block the beam. In total over 500 \textmu CT volumes were acquired. 
+
+\section{Data Processing Methods}
+\subsection{Overview}
+The overall data processing for X-ray CT data includes reconstruction, segmentation, and post-segmentation analysis. The raw data acquired from X-ray CT are called projections. Reconstruction processes the projections into reconstructed data which are slices of horizontal sections of the object. Segmentation processes reconstructed data into meaningful labels such as pore and solid. The post-segmentation process analyse the scientific purpose of the data for example, calculates the connectivity of a fluid phase, or count the number and size of oil ganglions, or calculates the pore size distribution of a porous medium.
+
+\subsection{CT Reconstruction}
+The raw data acquired from an X-ray CT scan is the digital signal of attenuated X-ray photons converted into digital images called projections. The projections can be reconstructed to horizontal image section of the object by various of algorithms, e.g. filtered back-projection\citep{kak2002principles} , gridrec algorithm \citep{marone2012regridding,dowd1999developments} etc. By stacking the 2D reconstructed slices, 3D structure of the object can be digitalised.
+
+\subsubsection{Octopus}
+Octopus\texttrademark is a commercial software for CT image reconstruction \citep{vlassenbroeck2006octopus}. It has a graphical user interface (GUI).  It uses filtered back-projection algorithm to perform reconstruction, and it includes image correction tool kits such as beam hardening correction, normalisation and denoise functions etc. It is user-friendly and faster for small batch of data. All the in-house CT data, and a minor part of the synchrotron CT data were reconstructed by Octopus. The reconstruction time for a CT volume sized $1600 \times 1600 \times 1000$ by Octopus usually takes around 40 minutes on a 16-core workstation. The latest Octopus version enables CUDA GPU acceleration so reconstruction time is massively reduced to few minutes.
+
+\subsubsection{Tomopy}
+TomoPy is an open-sourced software for CT image reconstruction \citep{gursoy2014tomopy}. It is python code based and does not have a GUI. The reconstruction functions include 13 major algorithms for instance filtered back-projection, Fourier grid-reconstruction, algebraic reconstruction and maximum-likelihood expectation maximization algorithm etc. It also includes other image correction functions such as auto centre finding, stripe removal functions, denoise filters and morphology functions. Because it is python based, it has several merits. First it is compatible with HDF files which is the standard data format for synchrotron data, while Octopus can not open. Second it allows user-defined pixel-wise operation, for the purpose of examining and fixing imaging errors. Thrid, it is compatible with other python software, like Open-CV \citep{opencv_library} and Scikit-image \citep{scikit-image}, to incorporate more useful functions and compose the best possible image processing work flow for unique data set. Fourth, it enables automatic batch processing that can loop different files in different folders and processing all-at once, which can save significant processing time. Fifth, it enables seamless subsequent processing of segmentation and scientific analysis using python.
+
+Some parts of the synchrotron CT raw data have blank reconstruction slices, they were due to non-positive pixel values in the projection slices. During reconstruction, the values were proceeded as not-a-number (NaN) value when calculating minus-log function. The NaN value would raise problem resulted as blank slice. This problem was fixed by replacing all the non-positive value pixels in the projections by an extremely small positive number 1$^{-9}$.
+
+The average reconstruction time for a CT volume sized $1600 \times 1600 \times 1000$ took less than a minute on a 32-core workstation. The majority of the synchrotron data was reconstructed by TomoPy. The TomoPy reconstruction code developed by Yili Yang can be found in the Appendices.
+
+\subsection{Image Segmentation}
+Image segmentation is the crucial prerequisite of quantitative analysis on CT images. Image segmentation is to assign meaningful labels to digital images pixel-wisely, for example giving each pixel a label of oil, brine or solid to a multiphase fluid flow core-flooding X-ray image. Due to great amount of CT data produced in the experiments and the complexity of the image pattern, it is impossible to manually segment the images. Therefore it is crucial to find an accurate and efficient method to segment CT images.
+
+\subsubsection{Pre-processing}
+Raw CT reconstruction images usually have artefacts including noise, beam hardening and ring artefacts etc that make segmentation difficult. It is a common practice to pre-process the raw CT reconstruction images before segmentation to reduce the artefacts, thus improve image quality and lead to better segmentation result. 
+
+The first step of pre-processing is cropping. Cropping is to re-size the raw image into the region of interest (ROI), and exclude the irrelevant background region. Cropping can significantly reduce the processing time and resource needed, therefore it is the foremost step of all processing steps.
+
+The following processing depends on the types of artefacts presented on the images. The common artefacts are random noise, ring artefacts, streak/stripe artefacts, beam hardening etc.
+
+Random noise is the most common artefact, it is inevitable but relatively easy to be filtered. The reason of random noise can be various such as the fluctuations inherent in the detection of a finite number of x-ray quanta, additional signals created by electronic circuits during signal processing, or the round-off errors arise from binary computation \citep{hanson1981radiology}.
+
+Random noise in CT images can be reduced by using denoising algorithms as known as filters. The most common type of filters are local smoothing filters (also known as neighbourhood filters), this kind of filters restores a pixel by taking average of its neighbouring values. Taking a $3\times3$ median filter \citep{huang1979fast} as example (Fig.\ref{median}), a window size of $3\times3$ pixel is sliding across the image, and the value of the central pixel is replaced by the median of the 9 values. One benefit of using the median rather than mean (known as mean filter) is that outlier values can significantly affect the mean value but not the median value. This algorithm can significantly reduce the outlier noise and therefore 'smooth' the noisy image. Though simple and fast, median filter smooth the entire image regardless of the boundary pattern of objects. 
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=1\textwidth]{\dir/figs/median_filter.png}
+  \caption{Application of a 3x3 median filter on a 2D image. The red matrix shows the kernel or the neighbourhood window. Image from \cite{Pak2014thesis}}
+  \label{median}
+\end{figure}
+
+A more advanced filter, the non-local means (NLM) filter \citep{buades2011non} adopted the similar idea, but it replaces the given pixel with the weighted average value of the resembling pixels across the whole image, instead of the median of the peripheral pixels, because '\textit{the most similar pixels to a given pixel have no reason to be close at all}'. The resemblance is evaluated by comparing a square neighbourhood around each pixel, with intensity values and geometrical configuration both taken into consideration. The pixels on the boundary of objects are not averaged by their surrounding pixels, but restored by the pixel value with similar pattern - also on the boundary, therefore the noise is reduced meanwhile the boundaries are preserved. The mathematical expression of NLM is described as following equation:
+
+$$NL[v](i)=\sum_{j\in i}w(i,j)v(j)$$
+
+For pixel $i$ in noisy image $v$, the filtered pixel value $NL[v](i)$ is computed as the sum of weighted average of all resembling pixels $j$. The resemblance of $i$ and $j$ is measured as a decreasing function of the weighted Euclidean distance of their neighbouring values, meaning that the pixel with more similar neighbourhood has higher weight in the average. See \cite{buades2011non} paper for the complete mathematical description of the algorithm.
+
+To compare the noise reduction performance on experimental CT data in this study, seven different filters are tested - the bilateral filter, total variation filter, Gaussian filter, Kuwahara filter, mean filter, median filter and non-local means filter. Non-local means filter has the best performance preserving edge features and noise reduction. And NLM filter has been widely implemented in ImageJ, Avizo\texttrademark and Scikit-image.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=1\textwidth]{\dir/figs/denoisecompare.png}
+  \caption{Comparison of denoising by NLM and median filter}
+  \label{denoisecompare}
+\end{figure}
+
+Fig\ref{denoisecompare} shows an example of comparison between NLM and median filter. The NLM filter has better performance on the example noisy image for less noise while preserving the sharpness of the phase boundaries. In Dr Tannaz Pak's PhD thesis \citeyear{Pak2014thesis}, she reported the comparison of median filter, anisotropic diffusion filter and NLM flter shows that NLM filter has the lowest standard deviation and the narrowest distribution peak in histogram. This confirmed the advantages of NLM filter for multiphase fluid flow experimental CT data in terms of noise removing while preserving phase boundaries.
+
+Besides noise, a range of CT artefacts can be produced during the complex physical process and computing process of microtomography. Beam hardening , streak artefacts and ring artefacts can be alleviated by applying filtering algorithm during reconstruction. 
+
+Synchrotron CT reconstructions can have problem that one CT volume have varied intensity along the vertical axis, i.e. some slices are overall brighter than others, and the degree of brightness varied across slices. This problem was fixed by normalising slices by their range of intensity.
+
+$$ nmI(i)=\frac{i-I_{min}}{I_{max}-I_{min}}*a$$
+
+In image $I$, the normalised pixel $nmI(i)$ of original pixel $i$ is calculated as the fraction of the intensity portion and the intensity range of image $I$. $I_{min}$ and $I_{max}$ are the minimum and maximum intensity in image $I$. The intensity portion of pixel $i$ is the difference of pixel value $i$ with the minimum intensity $I_{min}$. The intensity range is the difference of maximum and minimum intensity. $a$ is a coefficient, when $a=1$ the normalised output image format is floating point ranged from 0-1. When $a=255$ the normalised output image format is 8-bit unsigned.
+
+In the 2016 synchrotron experiments, the contrast between the solid phase and aqueous phase is subtle, even with 2.34M KI contrast enhance doping added to the aqueous phase. In order to segment the image, a masking pre-process was applied. A binary segmentation of soild and pore space was extracted from the reference scan at time zero. The segmentation of solid was employed as a mask for the subsequent segmentation of multiphase fluid flow process. (img) 
+
+\subsubsection{Seeded random walker segmentation}
+Accurate and efficient segmentation of CT images is the crucial prerequisite for the subsequent quantitative analysis of the experimental results. Conventional segmentation algorithms such as Otsu thresholding \citep{otsu1979threshold} or watershed segmentation \citep{serra1983image} are widely used in the image processing of multiphase flow experiments \citep[e.g.]{andrew2015imaging,singh2016imaging}. In this study, a more advanced algorithm - Seeded Random walker (RW) segmentation \citep{grady2005multilabel} is employed to segment the experimental CT reconstruction images. Random walker is a region growing algorithm similar with watershed, but with better performance in terms of accuracy and efficiency, it also provides probability map for a quantitative evaluation of the segmentation reliability.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=1\textwidth]{\dir/figs/rw.png}
+  \caption{An illustrative example of a random walker segmentation (a) modified by Dr Ian Butler from Grady (2006). In this example Grady (2006) uses fixed nodes connected by resistors, with the marker nodes, L1, L2 and L3, alternately (b, c, \& d) representing nodes fixed to a potential of 1 and all resistors were set to the same value. The electric potentials calculated represent the probability that a random walker starting at each node first reaches the seed point currently set to unity. The colour codes indicate which nodes with the highest values “belong” to which marker point, and the final segmentation is shown in (a) as the red line. Translating this example to the case of an image, each resistor would represent a function of the grey scale gradient in the image}
+  \label{rw}
+\end{figure}
+
+The seeded random walker algorithm was motivated by placing small number of user-defined labels (seeds) that unequivocally belong to a particular phase (i.e. solid), and perform random walk from pixels then noting which seed they first arrive at. Random walk is one of the famous problem scenario in probability theory that a man walking on a street and making turn by probability, and well known for its equivalence with electrical circuits \citep{doyle1984random}. In this algorithm, random walk is performed at each unclassified pixel and noting the probability that they arrived at each seed, and is categorised to the seed with the highest probability. The mathematical problem was solved by combining probability theory and circuit theory on a graph. The image structure was represented by a function that map pixel intensity to edge weights that affect random walker's choice.  
+
+Fig.\ref{rw} shows the analogue of random walker segmentation to electric circuits: the electrical nodes (pixels) are connected by resistors (weights) to the voltage source (seeds) L1, L2, L3 in (a). By solving the probability problem with the aid of circuit theory, the electric potentials (segmentation probability) is computed, and the segmentation is determined by the highest probability.
+
+Random walker algorithm is highly robust that unlikely suffer from the three usual problems in CT image segmentation 1)corrupted image with noise and artefacts, 2)different objects with low contrast or absent boundaries and 3)ambiguity of labels when they are fewer than constant regions. 
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=1\textwidth]{\dir/figs/rwresult.png}
+  \caption{Random walker segmentation example result}
+  \label{rwresult}
+\end{figure}
+
+Fig.\ref{rwresult} shows the original reconstructed CT image and the random walker segmentation result that separating pore space and solid. Zoomed-in red box on the original image shows The global thresholding result, blue speckles are the pixels with intermediate intensity that can not be thresholded. The random walker segmentation shows a sharp and clean segmentation of the pore and solid, this high quality segmentation is used as mask for the segmentation of experimental data with two fluids present in the pore space.
+
+Fig.\ref{segworkflow} shows the work flow of segmentation. The raw image is severely suffered from noise and the contrast between solid and brine is poor. By applying mask obtained from Fig.\ref{rw} on the raw image, the masked image shows the to-be-segmented pore space saturated with oil and brine. By applying non-local means filter, the noise is massively reduced and ready for RW segmentation. The seeds are determined by histogram, and the final segmentation is performed by seeded RW implementation in Scikit-image. The segmentation code developed by Yili Yang is attached in the Appendices chapter. The processing work flow took average one hour for each CT volume sized $1646 \times 1646 \times 1004$. A total of 140 plus volumes of synchrotron CT data was segmented using this method.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=1\textwidth]{\dir/figs/f.png}
+  \caption{Segmentation work flow}
+  \label{segworkflow}
+\end{figure}
+
+Fig.\ref{seg2} shows a comparison of the same slice before and after injection, and the segmentation result of injection fluids. Left image shows the reference water-saturated core prior to experimental injection, the image was acquired from static scan which has higher resolution than fast scans. A precise segmentation of solid and pore space is acquired from this image. Middle image shows the fast scan image of the same slice during brine injection. The fast scan achieved high temporal resolution at the cost of compromised image quality. The fast scan image has more noise and horizontal stripe artefact, more importantly, the contrast between brine and solid is so poor that can be barely visually identified. After the segmentation work flow, accurate segmentation of the two fluid occupied pore space and solid is shown on the right. 
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=1\textwidth]{\dir/figs/seg2.png}
+  \caption{Segmentation result}
+  \label{seg2}
+\end{figure}
+
+The RW segmentation probability map is shown in Fig.\ref{probmap}. It visualise the probability distribution of all pixels on a image belong to a particular phase. The original image is shown on the left, middle and right images are the segmentation probability distribution of solid and pore space (filled with H$_2$O) respectively.
+The colour map is scaled from 0-1 from colour cold to warm. For the probability value of each pixel on the map, the more close to 0 means the lower likelihood that it belongs to the target phase and vice versa. The uncertainty lies in those pixels with likelihood around 0.5, meaning that it is hard for the algorithm to decide whether this pixel belongs to a particular phase or not. The maps in Fig.\ref{probmap} show a very robust segmentation with many determined pixels and only few uncertainty.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=1\textwidth]{\dir/figs/probmap.png}
+  \caption{Probability map produced by random walker algorithm}
+  \label{probmap}
+\end{figure}
+
+\subsubsection{Deep learning convolutional neuron network segmentation}
+The segmentation work flow described in above section works well on the data in terms of quality, but it has some shortage. First, it has three main steps which are denoising, masking and segmentation, each step has few adjustable parameters, it is very time consuming to test the parameter combination for the best segmentation result in different imaging conditions. So the work flow is not a 'panacea' for all the CT data. Second, it relies on the mask image segmented from reference scan, data that lack of such reference and suffer from poor contrast could not be accurately segmented using this work flow. Third, the overall processing time for one synchrotron experiment by the work flow is month-scale, which becomes a bottle-neck for the subsequent scientific analysis. So it is necessary to employ the state-of-art deep learning segmentation using convolutional neuron networks (CNN) that can massively reduce the processing time.
+
+The CNN segmentation method is a supervised training process. During training, the artificial neuron network attempts to find a function that describes the relation between the original image (question) and the ground truth (answer). By training the network with a large number of data iteratively, the network keep improving the prediction and eventually can be used to segment unfamiliar data.
+
+The CNN segmentation can significantly improve the segmentation workflow for multiphase flow \textmu CT images. The advantages are fivefold. Firstly once a network for segmenting multiphase flow images is trained, it can be applied to future data without re-train. Second, once a network is trained it can function without a high quality reference image at time zero, allowing segmentation of any data set that lacks such a reference. Thirdly the segmentation is the direct output from reconstruction image, and so the considerable time consumed by preprocessing (tuning of filtering, registration, masking etc.) is no longer required. This is significant because for fast synchrotron \textmu CT data set, the data processing time is considerably long compared with time used for interpretation. Fourthly, the algorithm is capable for highly noised images, which is extremely limiting for conventional processing paths. Finally, the performance of the CNN network improves as more data it has seen, it evolves itself when it is used. Overall the CNN segmentation is a powerful and efficient tool for \textmu CT image segmentation, especially for extra-large and noisy data set.
+
+This segmentation method is described in detail in chapter 7. The deep learning code developed by Yili Yang is attached in the Appendices.
+
+\subsection{Post-segmentation Processing}
+Accurate segmentation of CT images guarantees that experimental phenomena are honestly digitalised. Only then can we analyse the physical process presented in the experiments. 
+\subsubsection{Euler Number for connectivity}
+To study the connectivity evolution of fluid phases during displacement, Euler characteristics ( Euler--Poincar\'e characteristic) is employed as a measurement of topological connectivity of fluid phases. 
+
+The topological definition for a three-dimensional object can be described using Minkowski functionals (details see \cite{blunt2017multiphase,mecke2005fluids}). There are four functionals: M$_0$ the volume of the object, M$_1$ the total area of the object surface, M$_2$ the average curvature on the surface and M$_3$ the total curvature of the surface. M$_3$, unlike the first three functionals, is dimensionless and related to the Euler characteristic $\chi$, which describes the relationship between the number of edges, faces and vertices of a polyhedron,
+
+$$\chi = V-E+F-O$$,
+
+where V is the number of vertices, E the number of edges, F the number of faces and O the number of discrete objects. To relate $\chi$ to the measure of connectivity, this relation is generalised \citep{serra1986introduction,vogel2001quantitative,vogel2002topological} to: 
+
+$$\chi=\beta_0-\beta_1+\beta_2$$,
+
+where $\beta_0$ is the zeroth Betti number referring to the disconnected discrete regions of the object, in the context of this study $\beta_0$ is the individual fluid ganglions and clusters. $\beta_1$ is the first Betti number referring to redundant handles or loops that can be eliminated without breaking the connectivity, quantified by $\beta_0$ staying constant. In the experimental context $\beta_1$ is the pores multiply interconnected by throats. $\beta_2$ is the 2nd second Betti number referring to isolated regions surrounded inside the object. In the experimental context it is the non-wetting fluid completely trapped in a pore surrounded by the wetting fluid.
+
+The Euler characterestics (simplified as Euler number) for the fluid phases were computed using Avizo9\texttrademark. The Euler number is normalised with fluid volume to characterise the unit volume connectivity of the phase.
+
+\subsubsection{Pore size distribution}
+Pore size distribution (PSD) is an important characteristic of a porous medium. It describes the pore population in relationship with pore width in a porous medium. The PSD of a porous medium can be experimentally determined using many methods including molecular adsorption method (molecular resolution porosimetry), small angle X-ray scattering, mercury porosimetry, nuclear magnetic resonance, thermoporosimetry, liquid extrusion porosimeter, size-exclusion chromatography, water vapor desorption isotherms etc \citep{kaneko1994determination, yang2009image}. From an image-based perspective, PSD can be determined by max ball method or porosimetry simulation etc \citep[e.g.]{delerue1999new,yang2009image,gostickporespy}. 
+
+In this study we used a local thickness approach implemented by \cite{gostickporespy} in python. The algorithm calculates the largest engulfed sphere for each voxel in an image and returns a copy of that image with the pore size value in each voxel. With this image mapped with pore size value, we can plot the PSD curve for different porous media. 
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=1\textwidth]{\dir/figs/localthickness.png}
+  \caption{Visualisation of maximum engulfed sphere in 2D and 3D}
+  \label{localthickness}
+\end{figure}
+
+Fig.\ref{localthickness} left shows an image slice produced by local thickness function, the pores are filled with spheres that indicate the maximum radius of that pore, and PSD of the 3D porous medium can be plotted from all the slices. Image on the right shows the 3D rendering of pores with certain size range rendered with red, pores out of this range are not rendered and transparent.
+
+\subsubsection{Pore throat-body partitioning}
+The size of pore is a fundamental control on the fluid flow process. According to the Young-Laplace equation, it is more energy favourable that wetting phase occupying the narrowest regions first, which means the throats are easy to flow and the pore body impedes the flow. And vice versa for non-wetting phase. In order to know the wettability of the porous medium, as contact angle measurements for every throat that fluids were passing by is not easy, it is more practically feasible to compare the size of pores that fluids were passing by to estimate the wettability.
+
+In this study I established a method to compare the throat size that passed by a fluid with those unpassed throats quantitatively. If a fluid phase passed more larger throats than smaller throats, this fluid phase is generally non-wetting to the porous medium, and vice versa.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=1\textwidth]{\dir/figs/partitionwf.png}
+  \caption{Pore body-throat partitioning work flow}
+  \label{partitionwf}
+\end{figure}
+
+The method work flow is shown in Fig.\ref{partitionwf}. First the raw CT image (1) is denoised (2), and segmented into a binarilised pore space (3). Then Euclidean distance map (4) of the pore space is computed, which is the Euclidean distance of a pixel to its nearest boundary, i.e. the distance of a point inside the pore to the closest rock surface. This distance map is then thresholded using Niblack thresholding \citep{niblack1985introduction}, to find the local maxima of the distance map. The local maxima represent the widest areas locally, which are pore bodies. The unthresholded area in (5) are the throats, the narrowest areas locally. By applying random walker probability map to (5), throats are labelled with the likelyhood of belonging of its nearest pore body (6). 
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=1\textwidth]{\dir/figs/throats.png}
+  \caption{3D rendering of brine passing throats labelled in colour}
+  \label{throats}
+\end{figure}
+
+Fig.\ref{throats} visualised the brine inside the oil saturated pore and the pore bodies and throats are rendered from cold to warm colour. This allows a intuitive observation of sizes of throats and pores that fluids were passing.
+
+The most important application of this method is to quantify the size of throats that fluids were passed or unpassed (Fig.\ref{throatsize}). By comparing two adjacent scans in a time series, the throats that connected with the fluid occupation can be examined if they were passed or not. In this figure of throat size distribution, brine passed throats (green) has a positive offset with unpassed throats (red), meaning that brine favours larger pores in general, but still passed some smaller throats, indicating that for the examined region, the porous medium is largely non-wetting to aqueous phase.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=1\textwidth]{\dir/figs/throatsize.png}
+  \caption{Passed and unpassed throat size distribution}
+  \label{throatsize}
+\end{figure}
+
+
+\newpage
+\bibliography{chapter3}
+
+
+
+
+

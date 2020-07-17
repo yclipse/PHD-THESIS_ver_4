@@ -1,0 +1,42 @@
+\makenomenclature
+
+\renewcommand{\nompreamble}{This list describes several symbols that will be later used within the thesis, the units given are SI based units. Where no units is shown, the quantity is dimensionless. To avoid ambiguity of the symbols, nomenclatures are categorised by discipline context \vspace{1cm}}
+
+\nomenclature[M]{$B$}{Bond number}
+\nomenclature[M]{$l$}{Length \hfill$m/s$}
+\nomenclature[M]{$Ca$}{Capillary number}
+\nomenclature[M]{$K$}{Permeability \hfill$m^2$}
+\nomenclature[M]{$K_r$}{Relative permeability}
+\nomenclature[M]{$M$}{Minkowski functional}
+\nomenclature[M]{$P$}{Pressure \hfill$Pa$}
+\nomenclature[M]{$q$}{Darcy velocity \hfill$m/s$}
+\nomenclature[M]{$Q$}{Flow rate \hfill$m^3/s$}
+\nomenclature[M]{$r$}{Radius of curvature \hfill$m$}
+\nomenclature[M]{$R$}{Radius \hfill$m$}
+\nomenclature[M]{$v$}{Velocity \hfill$m/s$}
+\nomenclature[M]{$V$}{Volume \hfill$m^3$}
+\nomenclature[M]{$\beta$}{Betti number}
+\nomenclature[M]{$\theta$}{Contact angle \hfill radians}
+\nomenclature[M]{$\kappa$}{Curvature \hfill$m^{-1}$}
+\nomenclature[M]{$\mu$}{Viscosity \hfill$Pa.s$}
+\nomenclature[M]{$\rho$}{Density \hfill$kg/m^3$}
+\nomenclature[M]{$\sigma$}{Interfacial tension \hfill$N/m$}
+\nomenclature[M]{$\phi$}{Porosity}
+\nomenclature[M]{$\chi$}{Euler characteristic}
+
+\nomenclature[N]{$I$}{Radiation intensity \hfill photons/s}
+\nomenclature[N]{$\mu$}{Attenuation coefficient \hfill $m^{-1}$}
+\nomenclature[N]{$h$}{Planck’s constant \hfill $6.63 \times 10^{34} J\cdot s$}
+\nomenclature[N]{$c$}{Speed of light \hfill $3\times 10^8 m/s$}
+\nomenclature[N]{$v$}{Frequency \hfill Hz}
+\nomenclature[N]{$\tau$}{Photoelectric attenuation coefficient}
+\nomenclature[N]{$\sigma$}{Compton scattering attenuation coefficient}
+
+\renewcommand\nomgroup[1]{%
+  \item[\bfseries
+  \ifstrequal{#1}{M}{Fluid physics and porous media}{%
+  \ifstrequal{#1}{N}{X-ray physics}{%
+  \ifstrequal{}{}{}{}}}%
+]}
+
+\printnomenclature

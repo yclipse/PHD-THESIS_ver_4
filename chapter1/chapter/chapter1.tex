@@ -1,0 +1,49 @@
+\chapter{Introduction}
+\section{Research questions}
+\subsection{Pore-scale fluid displacement in complex carbonates}
+statement of why carbonate systems are important and of interest – the sort of thing that was up front in Pak et al., (2015) since these media are not just oil and gas reservoirs, but they are aquifers and so potentially prone to contamination by immiscible organic contaminants 
+
+The research topic is multiphase flow and trapping in porous carbonates investigated using synchrotron X-ray micro tomography and modelling approaches. The research question is in several parts:
+1. heterogeneous pore characterestics
+2. mixed wettability
+
+The flow behaviour of two or more immiscible fluids within a variety of porous media impacts upon several science and engineering applications including water resources, hydrology, petroleum engineering, environmental engineering, soil science, and energy exploration and waste storage. This project is focused on pore-scale processes because it is the pore-scale behaviour of immiscible fluids in a porous material that controls the macro scale behaviour. Pore scale fluid flow and trapping is influenced by many factors such as wetting, permeability, saturation and pore geometry, resulting in a spectrum of intra and inter-pore fluid flow phenomena. 
+
+In this research, the porous material we focused on is carbonate rock. Carbonate reservoirs are of considerable significance for the petroleum industry due to their high productivity and longevity (Garland et al., 2012), but carbonate reservoirs also have a propensity of low levels – sometimes as low as 10\% producible - of oil recovery. The world’s total conventional hydrocarbons that are hosted in carbonate reservoirs are commonly quoted as 40\%-60\% \citep{garland2012advances,ningning2014distribution}. Carbonate aquifers also host underground water resources as well as being potential hosts for carbon capture and storage. However, carbonate reservoirs usually have a complex and heterogeneous nature of porosity and complex porosity-permeability relationships. The research context of the project is the Pre-salt play, an offshore carbonate hydrocarbon reservoir adjacent to the southeast coast of Brazil. Both analogue materials and actual rock core from the Pre-salt play will be investigated in this project, to study the multiphase flow behaviours in these complex carbonates.
+
+The experimental approach of this research consists of a series of core-flooding experiments using both in-house and synchrotron-based X-ray micro tomography facilities. X-ray micro tomography (X-ray μCT) is a standard imaging technique that enables a non-destructive three-dimensional scan of an opaque object to be acquired. The in-house X-ray micro CT imaging is used to image static rock samples. The synchrotron micro CT with its high photon flux enables active processes to be imaged in-situ and in real-time, so this 4D time resolved imaging technique was used to observe the impact of porous media properties on actual flow events in the experiments.
+
+On the other hand, pore-scale multiphase flow phenomenon was numerically modelled, and validated by our experimental observation. The model simulation was studied by the collaborating research group at Heriot-Watt University by Dr.Julien Maes. Multiphase flow in porous media is essentially controlled by three main physical concepts - conservation of energy, momentum and mass. Pore-scale multiphase flow modelling use two basic equations that derived from these physical laws- the Young & Young-Laplace Equation and the Navier-Stokes equation, to understand, simulate, and predict the multiphase flow mathematically. In this research, a Roof snap-off event was identified from the experiments, and the event was modelled and repeated using direct numerical simulation method.
+
+
+\subsection{Fluid connectivity evolution during steady-state and non-steady-state injection}
+\subsection{Fluid saturation evolution during steady-state and non-steady-state injection}
+
+\section{Overall work flow of this study}
+
+\section{Experimental and data processing tools}
+\subsection{Experimental tools}
+
+\subsection{Data processing tools}
+Image processing in python: Scikit-image 
+Python is a widely-used programming language in research, education and industry. A python library is a collection of certain ready-to-use functions that can be imported into user’s script. Within the scientific Python ecosystem (i.e. SciPy, Jones et al., 2001), Scikit-image is an open-source library for image processing in python. It is programmed, peer reviewed and updated by volunteers in the python community (Van der Walt et al., 2014). The source code has been being published on GitHub (https://github.com/scikit-image/scikit-image). 
+
+Scikit-image includes various image manipulation functions in the very first version: 1) input and output (I/O) operations; 2) test images and example data; 3) drawing primitives including lines and text; 4) image intensity adjustment; 5) various image filters such as edge finding and Denoising etc.; 6) image properties measurement e.g. similarity and contours; 7) morphology operations; 8) Restoration algorithms; 9) geometric etc. transforms; 10) image segmentation and image viewer; 11) graph-theoretic operations; 12) colour space conversion and 13) Tutorial interface. And new functions have been being added patch by patch. 
+
+Mahotas is another image processing Library under SciPy ecosystem and contains similar functions. However, it was furthermore designed to work with NumPy arrays (Van der Walt, 2011; Coelho, 2013). 
+
+Open Source Computer Vision (OpenCV) 
+Open Source Computer Vision (OpenCV, Bradski and Kaehler, 2008) is another free and mature programming library. As it is named, OpenCV is open-sourced and focusing on computer vision. OpenCV is cross-platform and has been being developed in several programming languages such as C++, C, Python, Java and Matlab. It collects more than 2500 optimised algorithms covering a wide range of image processing aspects including denoising and image segmentation. 
+
+Matlab image processing toolbox 
+The image processing toolbox in Matlab environment is like scikit-image. However, Matlab’s commercial licensing makes it a problem for non-profit usages. The closed source code is another downside of using Matlab. Despite these downsides, Matlab is a suitable environment for CT image processing. 
+
+Insight Segmentation and Registration Toolkit (ITK) 
+ITK is an open-source, cross-platform software for image analysis, particularly image segmentation and registration. It is written in C, C++, FORTRAN and Python, and is partly implemented in Fiji ImageJ. 
+
+ImageJ and Fiji 
+Unlike the programming libraries introduced above, ImageJ (Schindelin et al., 2012) is an open-sourced, free image processing program that has a graphical user interface (GUI). ImageJ is developed for scientific researches that involve multidimensional images. ImageJ hosts thousands user-developed extensions called plugins and macros, including some advanced algorithms such as Trainable Weka Segmentation and Non-Local-Means denoise. Fiji is a ready-to-use distribution of ImageJ with built-in bundles of key extensions. 
+
+Avizo
+It is a powerful 3D image processing softwarr, it is commercially licensed, however very strong in visualising the image processing as workflow charts. It uses modulised functions to interact with user. The essential algorithms and functions are included however the latest, experimental algorithms are not implemented yet. It can run python-based scripts and can create templates to automate tasks. Another short end is that Avizo often requires very high computing power, otherwise it will be very slow.
+
